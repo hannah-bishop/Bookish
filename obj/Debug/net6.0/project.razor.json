@@ -16328,6 +16328,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Training\\Bookish_SH\\Views\\Copy\\Index.cshtml",
+      "TargetPath": "Views\\Copy\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Training\\Bookish_SH\\Views\\AddCopy\\Index.cshtml",
       "TargetPath": "Views\\AddCopy\\Index.cshtml",
       "FileKind": "mvc"
