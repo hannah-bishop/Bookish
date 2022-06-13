@@ -17,8 +17,8 @@ public class CopyController : Controller
 
     public IActionResult Index()
     {
-        Copy copy = _copyService.GetCopyById(1);
-        return View(copy);
+        List<Copy> copies = _copyService.GetAllCopies();
+        return View(copies);
     }
 
 }

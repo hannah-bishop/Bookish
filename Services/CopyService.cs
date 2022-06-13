@@ -12,9 +12,9 @@ namespace Bookish.Services
             return _copyRepo.GetCopyById(id);
         }
 
-        // public List<Member> GetAllMembers()
-        // {
-        //     return _memberRepo.GetAllMembers();
-        // }
+        public List<Copy> GetAllCopies()
+        {
+            return _copyRepo.GetAllCopies();
+        }
     }
 }

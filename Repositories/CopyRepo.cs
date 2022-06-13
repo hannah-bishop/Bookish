@@ -16,11 +16,13 @@ namespace Bookish.Repositories
             .Single();
         }
 
-        // public List<Member> GetAllMembers()
-        // {
-        //     return _context
-        //     .Members
-        //     .ToList();
-        // }
+        public List<Copy> GetAllCopies()
+        {
+            return _context
+            .Copies
+            .Include(b => b.Book)
+            .Include(b => b.Book.Author)
+            .ToList();
+        }
     }
 }

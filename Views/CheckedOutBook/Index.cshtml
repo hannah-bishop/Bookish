@@ -1,0 +1,11 @@
+@model CheckedOutBook
+@{
+    ViewData["Title"] = "CheckedOutBook";
+}
+
+<div class="text-center">
+        <p>@Model.Member.Name</p>
+        <p>@Model.Copy.Id</p>
+        <p>@Model.DueDate</p>
+        <p>@Model.Returned</p>    
+</div>
