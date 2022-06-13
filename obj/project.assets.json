@@ -1823,19 +1823,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\seetan\\.nuget\\packages\\": {}
+    "C:\\Users\\hanbis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Training\\Bookish09\\Bookish.csproj",
+      "projectUniqueName": "C:\\Training\\Bookish\\Bookish.csproj",
       "projectName": "Bookish",
-      "projectPath": "C:\\Training\\Bookish09\\Bookish.csproj",
-      "packagesPath": "C:\\Users\\seetan\\.nuget\\packages\\",
-      "outputPath": "C:\\Training\\Bookish09\\obj\\",
+      "projectPath": "C:\\Training\\Bookish\\Bookish.csproj",
+      "packagesPath": "C:\\Users\\hanbis\\.nuget\\packages\\",
+      "outputPath": "C:\\Training\\Bookish\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\seetan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\hanbis\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

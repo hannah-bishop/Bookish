@@ -1,11 +1,14 @@
-@model Book
+@model List<Book>
 @{
-    ViewData["Title"] = "Book";
+    ViewData["Title"] = "Books";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Book</h1>
-    <p>@Model.Title</p>
-    <p>@Model.Author</p>
-    <img src="@Model.CoverImageUrl"></img>
+    @foreach(Book book in Model)
+    {
+        <p>@book.Title</p>
+        <p>@book.Author.Name</p>
+        <img width="250px" src="@book.CoverImageUrl"></img>
+    }
+    
 </div>
