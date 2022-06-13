@@ -1,11 +1,13 @@
-@model Member
+@model List<Member>
 @{
-    ViewData["Title"] = "Member";
+    ViewData["Title"] = "Members";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Member</h1>
-    <p>@Model.Name</p>
-    <p>@Model.Address</p>
-    <p>@Model.Email</p>
+    @foreach (Member member in Model)
+    {
+        <p>@member.Name</p>
+        <p>@member.Address</p>
+        <p>@member.Email</p>
+    }
 </div>

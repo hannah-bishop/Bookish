@@ -3,24 +3,22 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Bookish.Repositories
 {
-    public class BookRepo
+    public class MemberRepo
     {
         private BookishContext _context = new BookishContext();
 
-        public Book GetBookById(int id)
+        public Member GetMemberById(int id)
         {
             return _context
-            .Books
+            .Members
             .Where(b => b.Id == id)
-            .Include( b => b.Author)
             .Single();
         }
 
-        public List<Book> GetAllBooks()
+        public List<Member> GetAllMembers()
         {
             return _context
-            .Books
-            .Include(b => b.Author)
+            .Members
             .ToList();
         }
     }
