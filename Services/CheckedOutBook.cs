@@ -11,5 +11,9 @@ namespace Bookish.Services
         {
             return _checkedOutBookRepo.GetCheckedOutBookById(id);
         }
+        public List<CheckedOutBook> GetAllCheckedOutBooks()
+        {
+            return _checkedOutBookRepo.GetAllCheckedOutBooks();
+        }
     }
 }

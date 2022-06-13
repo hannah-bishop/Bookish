@@ -1,11 +1,16 @@
-@model CheckedOutBook
+@model List<CheckedOutBook>
 @{
     ViewData["Title"] = "CheckedOutBook";
 }
 
 <div class="text-center">
-        <p>@Model.Member.Name</p>
-        <p>@Model.Copy.Id</p>
-        <p>@Model.DueDate</p>
-        <p>@Model.Returned</p>    
+    @foreach (CheckedOutBook checkedOutBook in Model)
+    {
+        <p>@checkedOutBook.Member.Name</p>
+        <p>@checkedOutBook.Copy.Id</p>
+        <p>@checkedOutBook.DueDate</p>
+        <p>@checkedOutBook.Returned</p>
+        <p>@checkedOutBook.Copy.Book.Title</p>
+        <p>@checkedOutBook.Copy.Book.Author.Name</p>     
+    }      
 </div>

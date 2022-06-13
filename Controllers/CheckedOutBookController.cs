@@ -17,8 +17,8 @@ public class CheckedOutBookController : Controller
 
     public IActionResult Index()
     {
-        CheckedOutBook checkedOutBook = _checkedOutBookService.GetCheckedOutBookById(1);
-        return View(checkedOutBook);
+        List<CheckedOutBook> checkedOutBooks = _checkedOutBookService.GetAllCheckedOutBooks();
+        return View(checkedOutBooks);
     }
 
 }

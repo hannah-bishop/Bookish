@@ -1,5 +1,6 @@
 using Bookish.Models;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace Bookish.Repositories
 {
@@ -14,7 +15,19 @@ namespace Bookish.Repositories
             .Where(b => b.Id == id)
             .Include(b => b.Member)
             .Include(b => b.Copy)
+                .ThenInclude(a => a.Book)
+                    .ThenInclude(c => c.Author)
             .Single();
+        }
+        public List<CheckedOutBook> GetAllCheckedOutBooks()
+        {
+            return _context
+            .CheckedOutBooks
+            .Include(b => b.Member)
+            .Include(b => b.Copy)
+                .ThenInclude(a => a.Book)
+                    .ThenInclude(c => c.Author)
+            .ToList();
         }
     }
 }
