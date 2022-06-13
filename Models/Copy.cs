@@ -1,8 +1,8 @@
-namespace Bookish.Models;
-
-public class Copy
+namespace Bookish.Models
 {
-    public int Id { get; set; }
-    public int Book_Id { get; set;}
-
+    public class Copy
+    {
+        public int Id { get; set; }
+        public Book Book { get; set; }
+    }
 }
