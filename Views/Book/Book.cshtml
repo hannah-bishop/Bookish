@@ -1,0 +1,13 @@
+@model Book
+@{
+    ViewData["Title"] = "Books";
+}
+
+<div class="text-center">
+
+    <p>@Model.Title</p>
+    <p>@Model.Author.Name</p>
+    <img width="250px" src="@Model.CoverImageUrl"></img>
+
+    
+</div>

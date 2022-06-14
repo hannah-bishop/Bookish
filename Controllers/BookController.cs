@@ -18,15 +18,24 @@ public class BookController : Controller
         _bookService = new BookService();
     }
 
+    [HttpGet]
     public IActionResult Index()
     {
         List<Book> books = _bookService.GetAllBooks();
-        return View(books);
+        return View("Books", books);
     }
+
     [HttpPost("/Book")]
-    public IActionResult CreateBook([FromBody] CreateBookRequest newBook)
+    public IActionResult CreateBook([FromForm] CreateBookRequest newBook)
     {
         Book book = _bookService.CreateBook(newBook);
-        return View(book);
+        return View("Book", book);
+    }
+
+    [HttpGet("/Book/CreateBook")]
+
+    public IActionResult CreateBookForm()
+    {
+        return View("CreateBook");
     }
 }

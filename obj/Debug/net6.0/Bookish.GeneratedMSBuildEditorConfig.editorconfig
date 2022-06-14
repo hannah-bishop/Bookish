@@ -8,73 +8,81 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bookish
 build_property.RootNamespace = Bookish
-build_property.ProjectDir = c:\Training\Bookish09\
+build_property.ProjectDir = C:\Training\Bookish\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Training\Bookish09
+build_property.MSBuildProjectDirectory = C:\Training\Bookish
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Training/Bookish09/Views/AddBook/Index.cshtml]
+[C:/Training/Bookish/Views/AddBook/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/AddCopy/Index.cshtml]
+[C:/Training/Bookish/Views/AddCopy/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkQ29weVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/Book/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
+[C:/Training/Bookish/Views/Book/Book.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/CheckedOutBook/Index.cshtml]
+[C:/Training/Bookish/Views/Book/Books.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29rcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Training/Bookish/Views/Book/CreateBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGVCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Training/Bookish/Views/CheckedOutBook/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tlZE91dEJvb2tcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/Copy/Index.cshtml]
+[C:/Training/Bookish/Views/Copy/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29weVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/DeleteBook/Index.cshtml]
+[C:/Training/Bookish/Views/DeleteBook/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/Home/Index.cshtml]
+[C:/Training/Bookish/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/Home/Privacy.cshtml]
+[C:/Training/Bookish/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/LibrarianOptions/Index.cshtml]
+[C:/Training/Bookish/Views/LibrarianOptions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuT3B0aW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/Member/Index.cshtml]
+[C:/Training/Bookish/Views/Member/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/Shared/Error.cshtml]
+[C:/Training/Bookish/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Training/Bookish/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/UpdateBook/Index.cshtml]
+[C:/Training/Bookish/Views/UpdateBook/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/_ViewImports.cshtml]
+[C:/Training/Bookish/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/_ViewStart.cshtml]
+[C:/Training/Bookish/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Training/Bookish09/Views/Shared/_Layout.cshtml]
+[C:/Training/Bookish/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xr1oculb6k
