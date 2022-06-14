@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Bookish.Models;
 using Bookish.Services;
 using System;
+using Bookish.Models.Request;
 
 namespace Bookish.Controllers;
 
@@ -22,5 +23,10 @@ public class BookController : Controller
         List<Book> books = _bookService.GetAllBooks();
         return View(books);
     }
-
+    [HttpPost("/Book")]
+    public IActionResult CreateBook([FromBody] CreateBookRequest newBook)
+    {
+        Book book = _bookService.CreateBook(newBook);
+        return View(book);
+    }
 }
